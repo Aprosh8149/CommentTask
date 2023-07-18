@@ -1,0 +1,95 @@
+/* .App {
+  font-family: sans-serif;
+  text-align: center;
+} */
+* {
+  font-family: Monaco, sans-serif;
+}
+
+.App {
+  margin-top: 20px;
+  width: fit-content;
+}
+.heading-title {
+  font-weight: 800;
+}
+
+.commentContainer {
+  margin-top: 6px;
+  background-color: #d3d3d3e0;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 10px;
+  width: 300px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.commentContainer:hover {
+  background-color: #d3d3d3bf;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+
+.inputContainer > span {
+  margin-top: 5px;
+}
+
+.inputContainer__input {
+  margin: 6px 0 0px 0;
+  padding: 5px;
+  display: flex;
+  border: 1px solid lightgray;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 700px;
+  height: 40px;
+}
+
+.first_input {
+  margin: 0;
+}
+
+.commentContainer > span {
+  margin: 0 5px;
+}
+
+.delete-button {
+  margin-right: 5px;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 5px;
+  color: red;
+  font-weight: 600;
+  cursor: pointer;
+  border: 2px solid red;
+}
+.reply-button {
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  color: blue;
+  border: 2px solid blue;
+}
+
+.comment {
+  color: #ffffff;
+  background-color: #569dff;
+  margin-block-end: auto;
+  border-radius: 5px;
+  height: 35px;
+  width: 141px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
